@@ -17,7 +17,7 @@ public class JenkinsController {
 
     @GetMapping("/test")
     public String getTest() {
-        return "test";
+        return "hot deployment";
     }
 
 }
